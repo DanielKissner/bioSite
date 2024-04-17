@@ -1,0 +1,66 @@
+#navbar {
+    overflow: hidden;
+    background-color: #DE7B21;
+    border-bottom: solid 15px #de9821}
+
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+footer {
+    background-color: #DE9821;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#left {
+    width: 48%;
+    float:left;
+    border-style:solid;
+    border-color:red;
+    border-width:1px;
+    border-radius:15px;
+    padding:10px;
+    padding-top:25px;
+    font-weight: 300;
+}
+
+#right {
+    width:48%;
+    float:right;
+    border-style:solid;
+    border-color:red;
+    border-width:1px;
+    border-radius:15px;
+    padding:10px;
+    padding-top:25px;
+    list-style-type:upper-roman;
+}
+
+h2 {
+    text-align: center;
+}
+
+figure {
+    display:block;
+    width:60%;
+    margin:auto;
+}
+
+figcaption {
+    text-align: center;
+}
