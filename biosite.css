@@ -76,3 +76,11 @@ figcaption {
     width:80%;
     float:none
 }
+
+#container {
+    overflow-y:scroll
+}
+
+body {
+    overflow:hidden;
+}
